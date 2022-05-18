@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^11.2.14",
-    "@angular/core": "^11.2.14",
-    "shared": "https://github.com/ArtsiomAleksandrov/shared"
+    "@angular/core": "^11.2.14"
   },
   "dependencies": {
-    "tslib": "^2.0.0"
+    "tslib": "^2.0.0",
+    "kekiskek": "https://github.com/ArtsiomAleksandrov/shared"
   },
   "main": "bundles/sturdy-eureka.umd.js",
   "module": "fesm2015/sturdy-eureka.js",

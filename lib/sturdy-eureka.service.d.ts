@@ -1,6 +1,9 @@
+import { HttpClient } from '@angular/common/http';
 import * as i0 from "@angular/core";
 export declare class SturdyEurekaService {
-    constructor();
+    private httpClient;
+    constructor(httpClient: HttpClient);
+    getAssetsTest(): void;
     static ɵfac: i0.ɵɵFactoryDef<SturdyEurekaService, never>;
     static ɵprov: i0.ɵɵInjectableDef<SturdyEurekaService>;
 }
